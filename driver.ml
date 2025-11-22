@@ -1,4 +1,4 @@
-open Project2;;
+open solver;;
 
 let tokensListFromString (str : string) = Str.split (Str.regexp_string " ") str;;
 
